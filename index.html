@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Material</title>
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+      <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <style>
+      	pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  overflow: auto;
+  width: auto;
+  padding: 5px;
+  background-color: #eee;
+  width: 650px!ie7;
+  padding-bottom: 20px!ie7;
+  max-height: 600px;
+}
+	.test-data{
+		padding: 10px;
+		text-align: center;
+	}
+	.demo{
+		padding: 0 40px 40px;
+	}
+
+      </style>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+	
+	<header class="mdl-layout__header">
+	
+		<div class="mdl-layout__header-row">
+	
+			<span class="mdl-layout-title">Materialize Tutorial</span>
+			<div class="mdl-layout-spacer"></div>
+	
+			<nav class="mdl-navigation">
+				<a  class="mdl-navigation__link" href="#badge">Badges</a>	
+				<a  class="mdl-navigation__link" href="#icon" >Icon</a>
+			</nav>	
+	
+		</div>
+		 	
+		<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+			<a href="#badge"   class="mdl-layout__tab is-active ">BADGES</a>
+			<a href="#icons"   class="mdl-layout__tab">ICONS</a>
+			<a href="#buttons" class="mdl-layout__tab ">BUTTONS</a>
+			<a href="#cards"   class="mdl-layout__tab">CARDS</a>
+
+		</div>
+
+	</header>
+	<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">COMPONENTS</span>
+		<nav class="mdl-navigation">	
+			<a href="#badge" class="mdl-navigation__link">Badges</a>	
+			<a href="#icon" class="mdl-navigation__link">Icon</a>
+			<a href="#buttons" class="mdl-navigation__link">hello</a>	
+			<a href="#card" class="mdl-navigation__link">bye</a>
+						
+		</nav>	
+	</div>
+	
+
+
+<main class="mdl-layout__content">
+
+	<section class="mdl-layout__tab-panel is-active" id="badge" style="padding-top: 15px;">
+	<div class="page-content">	<p><h1>INTRODUCTION</h1>
+
+The Material Design Lite (MDL) badge component is an onscreen notification element. A badge consists of a small circle, typically containing a number or other characters, that appears in proximity to another object. A badge can be both a notifier that there are additional items associated with an object and an indicator of how many items there are.
+
+You cccompanying badge indicating the number of users currently participating in the discussion.
+A badge is almost always positioned near a link so that the user has a convenient way to access the additional information indicated by the badge. However, depending on the intent, the badge itself may or may not be part of the link.
+
+Badges are a new feature in user interfaces, and provide users with a visual clue to help them discover additional relevant content. Their design and use is therefore an important factor in the overall user experience.
+		</p>
+		<h1>How To Add</h1>
+		<p>
+		<!-- Number badge on icon -->
+
+  <pre>
+    <code>
+     <xmp>
+     	
+     	<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">account_box</div>
+        <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="21">face</div>
+     </xmp>
+    </code>
+  </pre>
+
+
+
+<xmp></xmp>
+</p>
+	<div class="test-data">
+		<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="21">account_box</div>
+		<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="21">face</div>
+	</div>
+	</div>	
+	</section>
+<div class="page-content">	
+	<section class="mdl-layout__tab-panel is-active" id="icons">
+		<h1>ICONS</h1>
+		<p>ing versions of Lorem Ipsum.
+Why do we use it?
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</p>
+		
+	</section>
+</div>
+<div  class="page-content">	
+	<section class="mdl-layout__tab-panel is-active" id="buttons">
+		<h1>BUTTONS</h1>
+		<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="21">account_box</div>
+		<p>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+ing versions of Lorem Ipsum.
+Why do we use
+Why do we use it?</p>		
+
+		<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="21">face</div>
+		
+	</section>
+</div>
+<div class="page-content">	
+	<section class="mdl-layout__tab-panel is-active" id="cards">
+		<h1>CARDS</h1>
+ons have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+ing versions of Lorem Ipsum.
+Why do we use it?
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</p>
+		
+	</section>
+</div>	
+	</main>
+</div>
+</body>
+</html>
